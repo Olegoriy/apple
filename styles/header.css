@@ -1,0 +1,42 @@
+.header{
+    background-color: violet; 
+    height: 88px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 65px;
+    height: 23px;
+    padding-left: 160px;
+    padding-bottom: 33px;
+    padding-right: 63px;
+}
+
+form {
+    width: 372px;
+    height: 56px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 33px;
+    padding-right: 63px;
+}
+
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+}
+
+.pages__item {
+    padding-right: 20px;
+    padding-bottom: 33px;
+}
