@@ -1,15 +1,13 @@
 .header{
     background-color: violet; 
     height: 88px;
-    padding-top: 13px;
-    padding-bottom: 13px;
     box-sizing: border-box;
 }
 
 .logo{
-    width: 65px;
     height: 23px;
-    padding-left: 160px;
+    width: 65px;
+    margin-left: 160px;
     padding-bottom: 33px;
     padding-right: 63px;
 }
@@ -22,7 +20,7 @@ form {
     flex-direction: row;
     align-items: center;
     padding-bottom: 33px;
-    padding-right: 63px;
+    padding-right: 17px;
 }
 
 
@@ -34,6 +32,7 @@ form {
 
 .navigation {
     display: flex;
+    padding: 0;
 }
 
 .pages__item {
