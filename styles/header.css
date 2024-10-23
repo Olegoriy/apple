@@ -1,9 +1,7 @@
-.header{
+.header__container{
     /* background-color: #ff6600;  */
     min-height: 88px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    box-sizing: border-box;
+    padding: 0;
 }
 
 .header__container {
@@ -34,11 +32,21 @@
 
 .icons__list {
     display: flex;
+    list-style: none;
 }
 
-.icons__item {
-    display: flex;
+.icons__item:not(last-child){
+    margin-right: 24px;
 }
+
+.icons__items {
+    display: block;
+    width: 26px;
+    height: 26px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 .icons__item_heart {
     background-image: url(../img/heart.png);
