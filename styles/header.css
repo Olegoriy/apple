@@ -17,6 +17,7 @@
 
 .search__field {
     margin-left: 63px;
+    min-width: 372px;
 }
 
 .navigation {
@@ -28,6 +29,12 @@
 
 .pages__item:not(:last-child) {
     padding-right: 52px;
+}
+
+.pages__link {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .icons__list {
