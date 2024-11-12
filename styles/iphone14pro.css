@@ -5,15 +5,26 @@
     display: flex;
 }
 
-.article__14pro {
+.article__i14pro {
     margin-left: 160px;
     margin-top: 188px;
     min-width: 714px;
     min-height: 256px;
 }
 
-.i14pro__above {
+.above__i14pro {
     color: gray;
     font-size: 25px;
     margin: 0;
 }
+
+.title__i14pro {
+    margin: 0;
+    display: flex;
+    color: white;
+    font-size: 96px;
+}
+
+
+
+
