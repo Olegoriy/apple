@@ -1,0 +1,23 @@
+.popular {
+    display: flex;
+}
+
+.popular__devices.ps5 {
+    width: 720px;
+    height: 328px;
+}
+
+.popular__devices.macbook {
+    width: 720px;
+    height: 600px;
+}
+
+.popular__devices.airpods__max {
+    width: 360px;
+    height: 272px;
+}
+
+.popular__devices.av__pro {
+    width: 360px;
+    height: 272px;
+}
