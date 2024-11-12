@@ -23,8 +23,14 @@
     display: flex;
     color: white;
     font-size: 96px;
+    font-weight: 200;
 }
 
+.below__i14pro {
+    color: gray;
+    font-size: 18px;
+    margin: 0;
+}
 
 
 
