@@ -72,6 +72,29 @@
     cursor: pointer;
 }
 
+.text__airpods {
+    min-width: 160px;
+    height: 143px;
+    margin-top: 65px;
+    margin-left: 48px;
+}
+
+.airpods__tilte {
+    font-family: SF Pro Display;
+    font-size: 29px;
+    font-weight: 300;
+    line-height: 40px;
+    width: 155px;
+}
+
+.airpods__description {
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #909090;
+}
+
 .popular__devices.av__pro {
     width: 360px;
     height: 272px;
