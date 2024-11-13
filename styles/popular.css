@@ -1,23 +1,79 @@
-.popular {
+.popular__devices.first {
     display: flex;
+    width: 100%;
+}
+
+.popular__devices.second {
+    display: flex;
+    margin-top: -272px;
+    width: 50%;
 }
 
 .popular__devices.ps5 {
     width: 720px;
     height: 328px;
+    display: flex;
+    cursor: pointer;
+}
+
+.text__ps5 {
+    width: 338px;
+    height: 104px;
+    margin-top: 112px;
+}
+
+.ps5__tilte {
+    font-size: 49px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.ps5__description {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #909090;
+    padding-top: 16px;
 }
 
 .popular__devices.macbook {
     width: 720px;
     height: 600px;
+    background-color: #EDEDED;
+    display: flex;
+    cursor: pointer;
+}
+
+.text__mac {
+    min-width: 360px;
+    height: 192px;
+    margin-top: 204px;
+    margin-left: 56px;
+}
+
+.mac__title {
+    font-size: 64px;
+    font-weight: 200;
+    line-height: 56px;
+}
+
+.mac__description {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #909090;
+    padding-top: 16px;
 }
 
 .popular__devices.airpods__max {
     width: 360px;
     height: 272px;
+    display: flex;
+    cursor: pointer;
 }
 
 .popular__devices.av__pro {
     width: 360px;
     height: 272px;
+    border: 1px solid black;
 }
