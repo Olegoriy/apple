@@ -1,0 +1,45 @@
+.browse {
+    width: 100%;
+    height: 352px;
+}
+
+.browse__title {
+    padding-top: 80px;
+    padding-left: 160px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+}
+
+.browse__list {
+    display: flex;
+    width: 1120px;
+    height: 128px;
+    padding-top: 32px;
+    padding-left: 160px;
+    list-style-type: none;
+    row-gap: 32px;
+}
+
+.cards__browse {
+    width: 160px;
+    height: 128px;
+    margin-right: 32px;
+    background-color: #EDEDED;
+    padding-top: 24px;
+    gap: 8px;
+    border-radius: 15px;
+    opacity: 0px;
+}
+
+.card__img {
+    display: block;
+    margin: auto;
+}
+
+.description__card {
+    width: 106px;
+    height: 24px;
+    margin: auto;
+}
