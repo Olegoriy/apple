@@ -1,0 +1,36 @@
+.catalog {
+    width: 100%;
+}
+
+.cards__catalog {
+    display: flex;
+    gap: 30px;
+}
+
+.card__catalog {
+    list-style-type: none;
+    width: 268px;
+    height: 432px;
+    background-color: #F6F6F6;
+    padding: auto;
+}
+
+.like__catalog {
+    padding-left: 220px;
+}
+
+.img__catalog__card {
+
+}
+
+.description__catalog {
+
+}
+
+.price__catalog {
+
+}
+
+.buy__now {
+
+}

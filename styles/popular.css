@@ -87,7 +87,6 @@
 }
 
 .airpods__tilte {
-    font-family: SF Pro Display;
     font-size: 29px;
     font-weight: 300;
     line-height: 40px;
@@ -95,7 +94,6 @@
 }
 
 .airpods__description {
-    font-family: SF Pro Display;
     font-size: 14px;
     font-weight: 500;
     line-height: 24px;
