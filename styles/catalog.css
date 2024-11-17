@@ -7,6 +7,7 @@
     flex-wrap: wrap;
     gap: 16px;
     margin-left: 160px;
+    margin-top: 30px;
     padding: 0;
 }
 
@@ -15,25 +16,56 @@
     width: 268px;
     height: 432px;
     background-color: #F6F6F6;
-    
+    min-width: 200px;
+    gap: 16px;
+    border-radius: 9px;
 }
 
 .like__catalog {
     padding-left: 220px;
+    padding-top: 16px;
+    cursor: pointer;
 }
 
 .img__catalog__card {
-
+    padding-left: 58px;
+    padding-top: 16px; 
 }
 
 .description__catalog {
-
+    padding: 16px;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-weight: 500;
+    line-height: 24px;
 }
 
 .price__catalog {
-
+    padding-left: 16px;
+    padding-bottom: 16px;
+    width: 236px;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
 
-.buy__now {
+.buy__now__btn {
+    width: 183px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: black;
+    margin-left: 43px;
+    cursor: pointer;
+}
 
+.buy__now__text {
+    color: white;
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
 }
