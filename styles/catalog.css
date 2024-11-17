@@ -33,6 +33,7 @@
 }
 
 .description__catalog {
+    height: 80px;
     padding: 16px;
     text-align: center;
     font-family: SF Pro Display;
