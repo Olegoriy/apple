@@ -1,34 +1,35 @@
-.header__container{
-    /* background-color: #ff6600;  */
-    min-height: 88px;
-    padding: 0;
+.header {
+    min-width: 100vh;
 }
 
 .header__container {
     display: flex;
     align-items: center;
+    min-height: 88px;
+    padding: 0;
+    min-width: 100%;
 }
 
 .logo {
     width: 65px;
     height: 23px;
-    margin-left: 160px;
+    margin-left: 20vh;
 }
 
 .search__field {
-    margin-left: 63px;
+    margin-left: 15vh;
     min-width: 372px;
 }
 
 .navigation {
-    margin-left: 63px;
+    margin-left: 8vh;
     display: flex;
     list-style: none;
     padding: 0;
 }
 
 .pages__item:not(:last-child) {
-    padding-right: 52px;
+    padding-right: 5vh;
 }
 
 .pages__link {
