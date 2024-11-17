@@ -1,0 +1,76 @@
+.devices {
+    display: flex;
+    width: 100%;
+    
+}
+
+.devices__popular__products {
+    height: 600px;
+}
+
+.devices__ipad__pro {
+    height: 600px;
+    background-color: #F9F9F9;
+}
+
+.devices__samsung {
+    height: 600px;
+    background-color: #EAEAEA;
+}
+
+.devices__mac {
+    height: 600px;
+    background-color: #2C2C2C;
+}
+
+.img__devices {
+    object-fit: cover;
+    width: 360px;
+    height: 366px;
+}
+
+.devices__article {
+    width: 296px;
+    height: 208px;
+    padding-left: 32px;
+}
+
+.title__devices {
+    font-family: SF Pro Display;
+    font-size: 33px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: left;
+}
+
+.description__devices {
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #909090;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 296px;
+}
+
+.shop__now {
+    width: 184px;
+    height: 56px;
+    padding: 16px 56px 16px 56px;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1px solid black;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.title__devices.mac {
+    color: white;
+}
+
+.shop__now.mac {
+    color: white;
+    border: 1px solid white;
+} 
