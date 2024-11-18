@@ -28,6 +28,7 @@
     background-color: #EDEDED;
     gap: 8px;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .card__img {
