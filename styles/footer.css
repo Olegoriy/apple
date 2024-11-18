@@ -1,0 +1,90 @@
+.footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 504px;
+}
+
+.container__footer {
+    padding-top: 104px;
+    padding-left: 160px;
+    display: flex;
+}
+
+.footer__fisrt__column {
+    width: 384px;
+    height: 95px;
+}
+
+.footer__description {
+    font-family: SF Pro Display;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    height: 48px;
+    color: #CFCFCF;
+    margin-top: 24px;
+}
+
+.footer__second__column {
+    margin-left: 113px;
+    width: 295px;
+    height: 256px;
+}
+
+.footer__title__second {
+    padding-bottom: 8px;
+}
+
+.list__services {
+    list-style-type: none;
+    padding: 0;
+}
+
+.service {
+    width: 295px;
+    height: 32px;
+    font-family: SF Pro Display;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #CFCFCF;
+    cursor: pointer;
+}
+
+.service:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.footer__third__column {
+    margin-left: 32px;
+    width: 295px;
+    height: 256px;
+}
+
+.footer__title__third {
+    margin-bottom: 8px;
+}
+
+.list__assistances {
+    list-style-type: none;
+    padding: 0;
+}
+
+.assistance {
+    width: 295px;
+    height: 32px;
+    font-family: SF Pro Display;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #CFCFCF;
+    cursor: pointer;
+}
+
+.assistance:not(:last-child) {
+    margin-bottom: 8px;
+}
