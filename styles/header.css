@@ -17,19 +17,19 @@
 }
 
 .search-form {
-    display: flex; /* Используем Flexbox для расположения элементов */
-    align-items: center; /* Центрируем элементы по вертикали */
-    background-size: cover; /* Масштабируем изображение */
+    display: flex; 
+    align-items: center; 
+    background-size: cover; 
     margin-left: 15vh;
     min-width: 372px;
     background-color: #F5F5F5;
 }
 
 .search__line {
-    border: none; /* Убираем стандартную рамку */
-    outline: none; /* Убираем обводку при фокусе */
-    padding: 10px; /* Добавляем отступы внутри поля ввода */
-    flex-grow: 1; /* Поле ввода занимает все доступное пространство */
+    border: none;
+    outline: none; 
+    padding: 10px; 
+    flex-grow: 1;
     background-color: #F5F5F5;
 }
 
