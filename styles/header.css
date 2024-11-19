@@ -23,19 +23,37 @@
     margin-left: 15vh;
     min-width: 372px;
     background-color: #F5F5F5;
+    height: 56px;
+    border-radius: 8px;
 }
 
 .search__line {
     border: none;
     outline: none; 
-    padding: 10px; 
+    padding: 19px; 
+    padding-left: 8px;
     flex-grow: 1;
     background-color: #F5F5F5;
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: #656565;
+    border-radius: 8px;
 }
 
 .search__button {
     border: 0;
     background-color: transparent;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.img__search {
+    margin-left: 16px;
+    
 }
 
 .navigation {
@@ -53,6 +71,14 @@
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+.pages__link{
+    color: gray;
+}
+
+.pages__link.first{
+    color: black;
 }
 
 .icons__list {
