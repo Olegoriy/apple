@@ -7,7 +7,7 @@
 
 .container__footer {
     padding-top: 104px;
-    padding-left: 160px;
+    margin-left: 160px;
     display: flex;
 }
 
@@ -87,4 +87,16 @@
 
 .assistance:not(:last-child) {
     margin-bottom: 8px;
+}
+
+.social__networks {
+    display: flex;
+    gap: 37px;
+    margin-left: 160px;
+    padding: 0;
+}
+
+.social__network {
+    list-style-type: none;
+    cursor: pointer;
 }
