@@ -129,6 +129,130 @@
     color: #909090;
 }
 
-.avpro__img {
+.img__avpro {
     margin-top: 41px;
+}
+
+
+@media (max-width: 320px) {
+    .popular {
+        height: 300px;
+        width: 100%;
+    }
+
+    .img__ps5 {
+        width: 80px;
+        height: 150px;
+    }
+
+    .popular__devices.first {
+        height: 150px;
+    }
+
+    .popular__devices.second {
+        margin: 0;
+    }
+
+    .popular__devices.ps5 {
+        height: 150px;
+    }
+
+    .text__ps5 {
+        margin-top: 50px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .ps5__tilte  {
+        font-size: 12px;
+        line-height: 6px;
+    }
+
+    .ps5__description {
+        font-size: 5px;
+        line-height: 7px;
+        padding-top: 8px;
+    }
+
+    .popular__devices.macbook {
+        height: 300px;
+    }
+
+    .text__mac  {
+        margin-top: 50px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .mac__title {
+        font-size: 12px;
+        line-height: 6px;
+    }
+
+    .mac__description {
+        font-size: 5px;
+        line-height: 7px;
+        padding-top: 8px;
+    }
+
+    .img__mac {
+        margin-top: 50px;
+        width: 150px;
+        height: 200px;
+    }
+
+    .popular__devices.airpods__max {
+        height: 150px;
+    }
+
+    .text__airpods {
+        margin-top: 50px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .airpods__tilte {
+        font-size: 12px;
+        line-height: 6px;
+    }
+
+    .airpods__description {
+        font-size: 5px;
+        line-height: 7px;
+        padding-top: 8px;
+    }
+
+    .img__airpods {
+        width: 100px;
+        height: 100px;
+    }
+
+    .popular__devices.av__pro {
+        height: 150px;
+    }
+
+    .text__avpro {
+        margin: 0;
+        margin-top: 50px;
+        width: 10px;
+        height: 100px;
+    }
+
+    .avpro__tilte {
+        font-size: 12px;
+        line-height: 6px;
+    }
+
+    .avpro__description {
+        font-size: 5px;
+        line-height: 7px;
+        padding-top: 8px;
+    }
+
+    .img__avpro {
+        width: 50px;
+        height: 50px;
+        
+    }
+
 }
