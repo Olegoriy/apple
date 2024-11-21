@@ -8,8 +8,8 @@
 .article__i14pro {
     margin-left: 160px;
     margin-top: 188px;
-    min-width: 714px;
-    min-height: 256px;
+    width: 714px;
+    height: 256px;
 }
 
 .above__i14pro {
@@ -30,6 +30,57 @@
     color: gray;
     font-size: 18px;
     margin: 0;
+}
+
+.i14pro {
+    max-width: 100%; /* чтобы изображение не выходило за пределы контейнера */
+    max-height: 100%; /* чтобы изображение не превышало высоту контейнера */
+    display: block; /* чтобы избежать лишнего пробела под изображением */
+    margin-left: auto; /* центрирование изображения */
+    margin-right: auto; /* центрирование изображения */
+}
+
+@media (max-width: 320px) {
+    .iphone__14pro {
+        width: 100%;
+        height: 250px;
+        overflow: auto;
+        padding: 0;
+        margin: 0;
+        white-space: no-wrap;
+    }
+    
+    .article__i14pro {
+        margin-top: 85px;
+        margin-left: 10px;
+        margin-right: 20px;
+        padding: 0;
+        max-width: 110px;
+        max-height: 100px;
+    }
+
+    .above__i14pro {
+        font-size: 12px;
+    }
+
+    .title__i14pro {
+        font-size: 18px;
+        white-space: nowrap;
+    }
+
+    .below__i14pro {
+        font-size: 8px;
+        width: 100px;
+        line-height: 16px;
+    }
+
+    .i14pro {
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        box-sizing: border-box; 
+    }
+    
 }
 
 

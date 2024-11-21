@@ -5,7 +5,7 @@
 .header__container {
     display: flex;
     align-items: center;
-    min-height: 88px;
+    height: 88px;
     padding: 0;
     min-width: 100%;
 }
@@ -111,17 +111,24 @@
 }
 
 @media (max-width: 320px) {
-    
-    .header__container {
+    .header {
+        height: 40px;
+    }
+
+    .container.header__container {
         justify-content: space-between; 
         padding-left: 10px; 
         padding-right: 10px;
         margin-left: 0; 
         margin-right: 0; 
+        height: 40px;
     }
 
     .logo {
-        margin-left: 5vh; 
+        position: relative;
+        left: 5vw; 
+        padding: 0;
+        margin: 0;
         width: 50px;
         height: auto; 
     }
@@ -135,12 +142,11 @@
     }
 
     .icons__list {
-        margin-left: auto; 
         margin-right: 0; 
-        padding-right: 10px; 
-        display: flex; 
         align-items: center; 
-        margin-left: 15px; 
+        position: relative;
+        width: 140px;
+        right: 5vw;
     }
 
     .icons__item:not(:last-child) {
