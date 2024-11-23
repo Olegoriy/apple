@@ -17,7 +17,6 @@
     width: 268px;
     height: 432px;
     background-color: #F6F6F6;
-    min-width: 200px;
     gap: 16px;
     border-radius: 9px;
 }
@@ -70,4 +69,61 @@
     font-weight: 500;
     line-height: 24px;
     text-align: center;
+}
+
+@media (max-width: 320px) {
+    .cards__catalog {
+        gap: 8px;
+        margin: 10px auto;
+    }
+    
+    .card__catalog {
+        list-style-type: none;
+        width: 23%;
+        height: 30%;
+        background-color: #F6F6F6;
+        gap: 16px;
+        border-radius: 9px;
+    }
+
+    .img__catalog__card {
+        padding: 0;
+        width: 40%;
+        height: 40%;
+        margin: 0 23px;
+    }
+
+    .description__catalog {
+        width: 90%;
+        height: 30px;
+        padding: 5px 0 5px 10px;
+        line-height: 6px;
+        font-size: 5px;
+    }
+
+    .price__catalog {
+        padding: 0;
+        margin: auto;
+        width: 30px;
+        font-size: 7px;
+        line-height: 8px;
+        letter-spacing: 0.03em;
+    }
+
+    .buy__now__btn {
+        width: 60%;
+        height: 5%;
+        margin: 5px 18px;
+    }
+    
+    .buy__now__text {
+        font-size: 5px;
+        line-height: 6px;
+    }
+
+    .like__catalog {
+        padding: 0;
+        width: 10px;
+        height: 10px;
+    }
 }
