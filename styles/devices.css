@@ -1,25 +1,29 @@
 .devices {
     display: flex;
     width: 100%;
-    
+}
+
+.container__columns {
+    width: 100vw;
+    height: 600px;
 }
 
 .devices__popular__products {
-    height: 600px;
+    height: 100%;
 }
 
 .devices__ipad__pro {
-    height: 600px;
+    height: 100%;
     background-color: #F9F9F9;
 }
 
 .devices__samsung {
-    height: 600px;
+    height: 100%;
     background-color: #EAEAEA;
 }
 
 .devices__mac {
-    height: 600px;
+    height: 100%;
     background-color: #2C2C2C;
 }
 
@@ -44,7 +48,6 @@
 }
 
 .description__devices {
-    font-family: SF Pro Display;
     font-size: 14px;
     font-weight: 500;
     line-height: 24px;
@@ -74,3 +77,48 @@
     color: white;
     border: 1px solid white;
 } 
+
+@media (max-width: 320px) {
+    .container__columns {
+        height: 165px;
+    }
+    
+    .img__devices {
+        width: 80px;
+        height: 80px;
+    }
+
+    .title__devices {
+        width: 70%;
+        font-size: 6px;
+        line-height: 8px;
+        padding-bottom: 5px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .devices__article {
+        width: 25vw;
+        font-size: 5px;
+        padding: 0;
+        margin: 0 auto;
+        height: 100%;
+    }
+
+    .description__devices {
+        width: 60px;
+        font-size: 4px;
+        line-height: 7px;
+        padding: 0;
+        margin: 0 auto 5px;
+    }
+
+    .shop__now {
+        width: 60px;
+        height: 20px;
+        padding: 0;
+        margin-left: 10px;
+        border-radius: 6px;
+        font-size: 5px;
+    }
+}
