@@ -34,7 +34,7 @@
 }
 
 .footer__title__second {
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .list__services {
@@ -99,4 +99,83 @@
 .social__network {
     list-style-type: none;
     cursor: pointer;
+}
+
+@media (max-width: 320px) {
+    .footer {
+        height: 160px;
+    }
+
+    .container__footer {
+        padding: 0;
+        margin: 0;
+        padding-top: 30px;
+        padding-left: 20px;
+        height: 160px;
+        display: flex;
+    }
+
+    .footer__fisrt__column {
+        height: 60px;
+        width: 106px;
+    }
+
+    .logo__footer {
+        width: 50px;
+    }
+    
+    .footer__description {
+        font-size: 4px;
+        line-height: 6px;
+        margin-top: 5px;
+        width: 50px;
+    }
+
+    .footer__second__column {
+        margin: 0;
+        width: 106px;
+        height: 100px;
+    }
+    
+    .footer__title__second {
+        font-size: 9px;
+    }
+    
+    .list__services {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .service {
+        width: 50px;
+        height: 6px;
+        font-size: 5px;
+        line-height: 6px;
+    }
+    
+    .service:not(:last-child) {
+        margin-bottom: 5px;
+    }
+
+    .footer__third__column {
+        margin: 0;
+        width: 106px;
+        height: 100px;
+    }
+    
+    .footer__title__third {
+        margin-bottom: 5px;
+        font-size: 9px;
+    }
+    
+    .assistance {
+        width: 80%;
+        height: 6px;
+        font-size: 5px;
+        line-height: 6px;
+    }
+    
+    .assistance:not(:last-child) {
+        margin-bottom: 8px;
+    }
 }
