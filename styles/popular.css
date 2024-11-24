@@ -42,10 +42,11 @@
     background-color: #EDEDED;
     display: flex;
     cursor: pointer;
+    position: relative;
 }
 
 .text__mac {
-    width: 360px;
+    max-width: 30%;
     height: 192px;
     margin-top: 204px;
     margin-left: 56px;
@@ -55,6 +56,7 @@
     font-size: 64px;
     font-weight: 200;
     line-height: 56px;
+    max-width: 30%;
 }
 
 .mac__description {
@@ -66,9 +68,13 @@
 }
 
 .mac__img {
-    position: absolute;
-    right: 0;
-    margin-top: 49px;
+    position: absolute; /* Абсолютное позиционирование для изображения */
+    right: 0; /* Прикрепляем к правому краю родительского элемента */
+    bottom: 0; /* Устанавливаем его в нижнюю часть родителя */
+    width: auto; /* Убедитесь, что ширина изображения автоматически подстраивается */
+    height: auto; /* То же самое для высоты */
+    height: 100%;
+    max-width: 50%;
 }
 
 .popular__devices.airpods__max {
@@ -180,6 +186,7 @@
 
     .text__mac  {
         margin-top: 50%;
+        margin-left: 10%;
         width: 100px;
         height: 100px;
     }

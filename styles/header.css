@@ -1,19 +1,18 @@
 .header {
-    min-width: 100vw;
+    width: 100vw;
 }
 
 .header__container {
     display: flex;
     align-items: center;
     height: 88px;
-    padding: 0;
-    min-width: 100%;
+    width: 100vw;
+    justify-content: center;
 }
 
 .logo {
     width: 65px;
     height: 23px;
-    margin-left: 20vw;
 }
 
 .search-form {

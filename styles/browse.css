@@ -20,6 +20,7 @@
     list-style-type: none;
     margin: 32px auto;
     padding: 0;
+    justify-content: center;
 }
 
 .cards__browse {
