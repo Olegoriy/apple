@@ -15,11 +15,16 @@
     height: 23px;
 }
 
+.search__field {
+    width: 420px;
+    margin-right: 40px;
+}
+
 .search-form {
     display: flex; 
     align-items: center; 
     background-size: cover; 
-    margin-left: 15vh;
+    margin-left: 10vh;
     min-width: 372px;
     background-color: #F5F5F5;
     height: 56px;
@@ -150,5 +155,11 @@
 
     .icons__item:not(:last-child) {
         margin-right: 10px; 
+    }
+}
+
+@media (max-width: 1054px) {
+    .search__field {
+        width: 350px;
     }
 }
