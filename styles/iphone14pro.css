@@ -20,7 +20,7 @@
 
 .title__i14pro {
     margin: 0;
-    display: flex;
+    display: inline-block;
     color: white;
     font-size: 96px;
     font-weight: 200;
