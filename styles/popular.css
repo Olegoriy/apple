@@ -14,18 +14,26 @@
     height: 328px;
     display: flex;
     cursor: pointer;
+    align-items: center;
+}
+
+.img__ps5 {
+    object-fit: cover;
+    height: 100%;
+    width: 50%;
 }
 
 .text__ps5 {
-    width: 338px;
-    height: 104px;
-    margin-top: 112px;
+    width: 50%;
+    height: 100%;
+    align-items: center;
 }
 
 .ps5__tilte {
     font-size: 49px;
     font-weight: 500;
     line-height: 40px;
+    margin-top: 30%;
 }
 
 .ps5__description {
@@ -68,11 +76,11 @@
 }
 
 .mac__img {
-    position: absolute; /* Абсолютное позиционирование для изображения */
-    right: 0; /* Прикрепляем к правому краю родительского элемента */
-    bottom: 0; /* Устанавливаем его в нижнюю часть родителя */
-    width: auto; /* Убедитесь, что ширина изображения автоматически подстраивается */
-    height: auto; /* То же самое для высоты */
+    position: absolute; 
+    right: 0; 
+    bottom: 0;
+    width: auto; 
+    height: auto; 
     height: 100%;
     max-width: 50%;
 }
@@ -270,4 +278,17 @@
         margin-left: -5vw;
     }
 
+}
+
+@media (max-width: 1440px) {
+    .text__ps5 {
+        width: 50%;
+        height: 100px;
+    }
+    
+    .ps5__tilte  {
+        font-size: 40px;
+        line-height: 24px;
+        margin: 0;
+    }
 }
