@@ -127,19 +127,21 @@
 }
 
 .text__avpro {
-    width: 160px;
-    height: 144px;
-    margin-top: 64px;
-    margin-left: 16px;
+    width: 50%;
+    height: 143px;
+    margin-top: 20%;
+    margin-left: 15%;
 }
-.avpro__tilte {
+
+.avpro__title {
     font-size: 29px;
     font-weight: 200;
     line-height: 40px;
     text-align: left;
     color: #EDEDED;
-    width: 140px;
+    width: 100%;
 }
+
 .avpro__description {
     font-size: 14px;
     font-weight: 500;
@@ -148,7 +150,8 @@
 }
 
 .img__avpro {
-    margin-top: 41px;
+    width: 30%;
+    height: 100%;
 }
 
 @media (max-width: 1440px) {
