@@ -15,29 +15,32 @@
 
 .card__catalog {
     list-style-type: none;
-    width: 268px;
+    width: 23vw;
     height: 432px;
     background-color: #F6F6F6;
     gap: 16px;
     border-radius: 9px;
+    justify-content: center;
+    align-items: center;
 }
 
 .like__catalog {
-    padding-left: 220px;
-    padding-top: 16px;
+    margin-top: 5px;
+    margin-left: 85%;
+    width: 10%;
     cursor: pointer;
 }
 
 .img__catalog__card {
-    padding-left: 58px;
-    padding-top: 16px; 
+    margin-left: 25%;
+    width: 50%;
 }
 
 .description__catalog {
     height: 80px;
-    padding: 16px;
+    margin-left: 10%;
+    width: 80%;
     text-align: center;
-    font-family: SF Pro Display;
     font-weight: 500;
     line-height: 24px;
 }
@@ -47,7 +50,6 @@
     padding-bottom: 16px;
     width: 236px;
     text-align: center;
-    font-family: SF Pro Display;
     font-size: 24px;
     font-weight: 600;
     line-height: 24px;
