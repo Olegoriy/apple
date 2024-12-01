@@ -33,6 +33,7 @@
 
 .img__catalog__card {
     margin-left: 25%;
+    margin-top: 10px;
     width: 50%;
 }
 
@@ -73,6 +74,30 @@
     font-weight: 500;
     line-height: 24px;
     text-align: center;
+}
+
+@media (max-width: 2560px) {
+    .card__catalog {
+        height: 25vw;
+    }
+}
+
+@media (max-width: 2000px) {
+    .card__catalog {
+        height: 27vw;
+    }
+}
+
+@media (max-width: 1700px) {
+    .card__catalog {
+        height: 30vw;
+    }
+}
+
+@media (max-width: 1440px) {
+    .card__catalog {
+        height: 35vw;
+    }
 }
 
 @media (max-width: 320px) {
