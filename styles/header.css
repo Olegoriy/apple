@@ -15,16 +15,11 @@
     height: 23px;
 }
 
-.search__field {
-    width: 420px;
-    margin-right: 40px;
-}
-
 .search-form {
     display: flex; 
     align-items: center; 
     background-size: cover; 
-    margin-left: 10vh;
+    margin-left: 5vw;
     width: 372px;
     background-color: #F5F5F5;
     height: 56px;
@@ -38,7 +33,6 @@
     padding-left: 8px;
     flex-grow: 1;
     background-color: #F5F5F5;
-    font-family: SF Pro Display;
     font-size: 14px;
     font-weight: 500;
     line-height: 18px;
@@ -61,14 +55,14 @@
 }
 
 .navigation {
-    margin-left: 8vh;
+    margin-left: 5vw;
     display: flex;
     list-style: none;
     padding: 0;
 }
 
 .pages__item:not(:last-child) {
-    padding-right: 5vh;
+    padding-right: 2vw;
 }
 
 .pages__link {
@@ -114,6 +108,7 @@
     background-image: url(../img/user.png);
 }
 
+
 @media (max-width: 320px) {
     .header {
         height: 40px;
@@ -158,8 +153,3 @@
     }
 }
 
-@media (max-width: 1054px) {
-    .search__field {
-        width: 350px;
-    }
-}
