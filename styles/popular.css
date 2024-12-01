@@ -81,7 +81,6 @@
     bottom: 0; 
     height: 100%;
     width: 50%;
-    object-fit: cover;
 }
 
 .popular__devices.airpods__max {
@@ -93,15 +92,15 @@
 }
 
 .img__airpods {
-    width: 30%;
     height: 100%;
+    width: 30%;
 }
 
 .text__airpods {
-    width: 45%;
+    width: 40%;
     height: 143px;
     margin-top: 65px;
-    margin-left: 48px;
+    margin-left: 20%;
 }
 
 .airpods__tilte {
