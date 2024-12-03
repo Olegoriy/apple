@@ -66,13 +66,9 @@
 }
 
 .pages__link {
-    color: black;
+    color: gray;
     text-decoration: none;
     cursor: pointer;
-}
-
-.pages__link{
-    color: gray;
 }
 
 .pages__link.first{
@@ -108,6 +104,11 @@
     background-image: url(../img/user.png);
 }
 
+@media (max-width: 1024px) {
+    .pages__link {
+        font-size: 14px;
+    }
+}
 
 @media (max-width: 320px) {
     .header {
