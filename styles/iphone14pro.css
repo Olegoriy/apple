@@ -40,6 +40,31 @@
     margin-right: auto; 
 }
 
+@media (max-width: 738px) {
+    .title__i14pro {
+        font-size: 60px;
+    }
+
+    .above__i14pro {
+        font-size: 20px;
+    }
+
+    .below__i14pro {
+        font-size: 14px;
+        width: 80%;
+    }
+
+    .article__i14pro {
+        height: 100%;
+        width: 714px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        margin: 0;
+        margin-left: 2vw;
+    }
+}
+
 @media (max-width: 320px) {
     .iphone__14pro {
         width: 100%;
