@@ -40,6 +40,7 @@
     text-align: left;
     color: #656565;
     border-radius: 8px;
+    width: 80%;
 }
 
 .search__button {
@@ -52,7 +53,6 @@
 
 .img__search {
     margin-left: 16px;
-    
 }
 
 .navigation {
@@ -79,6 +79,7 @@
 .icons__list {
     display: flex;
     list-style: none;
+    padding-left: 2vw;
 }
 
 .icons__item:not(last-child){
@@ -108,6 +109,25 @@
 @media (max-width: 1024px) {
     .pages__link {
         font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__container {
+        justify-content: right;
+    }
+    
+    .search-form { 
+        margin-left: 30vw;
+        width: 50vw;
+    }
+
+    .pages__link {
+        font-size: 14px;
+    }
+
+    .navigation {
+        display: none;
     }
 }
 
