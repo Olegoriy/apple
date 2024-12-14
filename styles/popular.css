@@ -14,6 +14,7 @@
     height: 328px;
     display: flex;
     cursor: pointer;
+    align-items: center;
 }
 
 .img__ps5 {
@@ -188,11 +189,14 @@
 }
 
 @media (max-width: 768px) {
+    .text__ps5 {
+        height: 40%;
+    }
+
     .ps5__title {
         font-size: 24px;
         font-weight: 500;
         line-height: 40px;
-        margin-top: 50%;
     }
 
     .ps5__description {
