@@ -195,8 +195,7 @@
 
     .ps5__title {
         font-size: 24px;
-        font-weight: 500;
-        line-height: 40px;
+        padding-left: 10px;
     }
 
     .ps5__description {
@@ -207,6 +206,30 @@
     .mac__title {
         font-size: 30px;
         line-height: 40px;
+    }
+
+    .airpods__max {
+        align-items: center;
+    }
+
+    .airpods__tilte {
+        font-size: 24px;
+    }
+
+    .airpods__description {
+        display: none;
+    }
+/* asd */
+    .av__pro {
+        align-items: center;
+    }
+
+    .avpro__tilte {
+        font-size: 24px;
+    }
+
+    .avpro__description {
+        display: none;
     }
 }
 
