@@ -201,6 +201,8 @@
     .ps5__description {
         padding-top: 8px;
         padding-left: 10px;
+        font-size: 10px;
+        line-height: 16px;
     }
 
     .mac__title {
@@ -208,24 +210,31 @@
         line-height: 40px;
     }
 
+    .mac__description {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
     .airpods__max {
         align-items: center;
     }
 
     .airpods__tilte {
-        font-size: 24px;
+        font-size: 20px;
+        line-height: 30px;
     }
 
     .airpods__description {
         display: none;
     }
-/* asd */
+
     .av__pro {
         align-items: center;
     }
 
-    .avpro__tilte {
-        font-size: 24px;
+    .avpro__title {
+        font-size: 22px;
+        line-height: 30px;
     }
 
     .avpro__description {
