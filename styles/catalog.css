@@ -111,6 +111,21 @@
     }
 }
 
+@media (max-width: 768px) {
+    .card__catalog {
+        height: 50vw;
+    }
+
+    .description__catalog {
+        line-height: 16px;
+    }
+
+    .buy__now__btn {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
 @media (max-width: 320px) {
     .cards__catalog {
         gap: 8px;
