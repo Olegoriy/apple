@@ -94,6 +94,10 @@
     .container__columns {
         height: 750px;
     }
+
+    .shop__now {
+        width: 70%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -111,7 +115,7 @@
     }
 
     .shop__now {
-        width: 70%;
+        width: 75%;
     }
 }
 
