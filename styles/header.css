@@ -131,6 +131,17 @@
     }
 }
 
+@media (max-width: 600px) {
+    .header__container {
+        height: 70px;
+    }
+    
+    .search-form { 
+        margin-left: 10vw;
+        width: 50vw;
+    }
+}
+
 @media (max-width: 320px) {
     .header {
         height: 40px;
