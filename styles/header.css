@@ -122,10 +122,6 @@
         width: 50vw;
     }
 
-    .pages__link {
-        font-size: 14px;
-    }
-
     .navigation {
         display: none;
     }
@@ -137,7 +133,7 @@
     }
     
     .search-form { 
-        margin-left: 10vw;
+        margin-left: 6vw;
         width: 50vw;
     }
 }
