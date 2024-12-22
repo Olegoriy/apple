@@ -65,6 +65,20 @@
     }
 }
 
+@media (max-width: 600px) {
+    .iphone__14pro {
+        height: 400px;
+    }
+
+    .title__i14pro {
+        font-size: 50px;
+    }
+
+    .i14pro {
+        width: 300px;
+    }
+}
+
 @media (max-width: 320px) {
     .iphone__14pro {
         width: 100%;
