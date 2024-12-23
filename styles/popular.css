@@ -242,6 +242,76 @@
     }
 }
 
+@media (max-width: 600px) {
+    .popular__devices.ps5 {
+        height: 200px;
+    }
+
+    .ps5__description {
+        display: none;
+    }
+
+    .text__ps5 {
+        height: 0;
+    }
+
+    .ps5__title {
+        font-size: 18px;
+        padding-left: 0;
+    }
+
+    .popular__devices.macbook {
+        height: 400px;
+        align-items: center;
+    }
+
+    .text__mac {
+        margin: 0;
+        margin-left: 10%;
+        height: 0;
+    }
+
+    .mac__title {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .mac__description {
+        display: none;
+    }
+
+    .popular__devices.airpods__max {
+        height: 200px;
+        align-items: center;
+    }
+
+    .text__airpods {
+        margin-left: 10%;
+        margin-top: 50%;
+    }
+
+    .airpods__tilte {
+        font-size: 16px;
+    }
+
+    .popular__devices.av__pro {
+        height: 200px;
+    }
+
+    .text__avpro {
+        margin-left: 10%;
+        margin-top: 50%;
+    }
+
+    .avpro__tilte {
+        font-size: 16px;
+    }
+
+    .popular__devices.second {
+        margin-top: -200px;
+    }
+}
+
 @media (max-width: 320px) {
     .popular {
         height: 300px;
@@ -372,6 +442,4 @@
         height: 80px;
         margin-left: -5vw;
     }
-
 }
-
