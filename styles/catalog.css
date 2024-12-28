@@ -126,6 +126,30 @@
     }
 }
 
+@media (max-width: 600px) {
+    .card__catalog {
+        height: 264px;
+        width: 20vw;
+    }
+
+    .description__catalog {
+        line-height: 12px;
+        font-size: 10px;
+    }
+
+    .price__catalog {
+        font-size: 14px;
+    }
+
+    .buy__now__btn {
+        height: 10%;
+    }
+
+    .buy__now__text {
+        font-size: 10px;
+    }
+}
+
 @media (max-width: 320px) {
     .cards__catalog {
         gap: 8px;
