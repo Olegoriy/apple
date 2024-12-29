@@ -119,6 +119,12 @@
     }
 }
 
+@media (max-width: 600px) {
+    .title__devices {
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 320px) {
     .container__columns {
         height: 165px;
