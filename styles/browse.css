@@ -6,7 +6,7 @@
 
 .browse__title {
     padding-top: 80px;
-    padding-left: 160px;
+    padding-left: 5vw;
     font-size: 24px;
     font-weight: 500;
     line-height: 32px;
@@ -51,11 +51,6 @@
         height: 300px;
     }
 
-    .browse__title {
-        padding-top: 40px;
-        padding-left: 60px;
-    }
-
     .browse__list {
         width: 95%;
     }
@@ -70,6 +65,16 @@
     }
 }
 
+@media (max-width: 600px) {
+    .browse {
+        height: 250px;
+    }
+
+    .cards__browse {
+        height: 90px;
+    }
+}
+
 @media (max-width: 320px) {
     .browse {
         height: 100px;
@@ -79,7 +84,6 @@
     .browse__title {
         padding-top: 20px;
         width: 140px;
-        padding-top: 10px;
         padding-left: 20px;
         font-size: 12px;
         font-weight: 500;
