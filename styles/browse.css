@@ -70,8 +70,31 @@
         height: 250px;
     }
 
+    .browse__title {
+        padding-top: 40px;        
+    }
+
     .cards__browse {
         height: 90px;
+    }
+}
+
+@media (max-width: 425px) {
+    .browse {
+        height: 200px;
+    }
+
+    .browse__title {
+        padding-top: 40px;
+        font-size: 16px;
+    }
+
+    .cards__browse {
+        height: 60px;
+    }
+    
+    .card__img {
+        width: 50%;
     }
 }
 
