@@ -71,7 +71,6 @@
     color: white;
     font-size: 14px;
     font-weight: 500;
-    line-height: 24px;
     text-align: center;
 }
 
@@ -147,6 +146,21 @@
 
     .buy__now__text {
         font-size: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .card__catalog {
+        height: 65vw;
+    }
+
+    .description__catalog {
+        font-size: 7px;
+        height: 60px;
+    }
+
+    .buy__now__text {
+        font-size: 6px;
     }
 }
 
