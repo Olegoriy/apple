@@ -135,7 +135,7 @@
     }
 
     .card__img {
-        display: none;
+        height: 20px;
     }
     
     .description__card {
