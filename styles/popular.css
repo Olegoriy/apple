@@ -313,25 +313,6 @@
 }
 
 @media (max-width: 425px) {
-    .ps5__title {
-        font-size: 16px;
-        margin-left: 2px;
-    }
-
-    .mac__title {
-        font-size: 16px;
-    }
-
-    .avpro__title {
-        font-size: 12px;
-    }
-
-    .airpods__tilte {
-        font-size: 12px;
-    }
-}
-
-@media (max-width: 320px) {
     .popular {
         height: 300px;
         width: 100%;
@@ -409,13 +390,12 @@
         margin-top: 50px;
         width: 50px;
         height: 50px;
-        margin: 0;
     }
 
     .airpods__tilte {
         width: 15px;
-        font-size: 6px;
-        line-height: 6px;
+        font-size: 8px;
+        line-height: 9px;
         margin: 0;
     }
 
@@ -437,16 +417,15 @@
     }
 
     .text__avpro {
-        margin-top: 50px;
-        width: 40%;
-        height: 100px;
-        margin-left: 0;
+        margin-top: 40px;
+        width: 50px;
+        height: 50px;
     }
 
     .avpro__title {
         width: 15px;
-        font-size: 6px;
-        line-height: 6px;
+        font-size: 8px;
+        line-height: 9px;
         margin: 0;
     }
 
