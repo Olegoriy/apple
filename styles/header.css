@@ -173,8 +173,8 @@
         margin-right: 0; 
         align-items: center; 
         position: relative;
-        width: 140px;
-        right: 5vw;
+        width: 100px;
+        right: 1vw;
     }
 
     .icons__item:not(:last-child) {
